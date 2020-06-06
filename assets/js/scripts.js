@@ -1,25 +1,3 @@
-/*
-Theme Name: IAMX
-Author: Trendy Theme
-Author URL: trendytheme.net
-*/
-
-/*
-    = Preloader
-    = Animated scrolling / Scroll Up
-    = Full Screen Slider
-    = Sticky Menu
-    = Back To Top
-    = Countup
-    = Progress Bar
-    = More skill
-    = Shuffle
-    = Magnific Popup
-    = Vidio auto play
-    = Fit Vids
-    = Google Map
-
-*/
 
 jQuery(function ($) {
 
@@ -45,10 +23,6 @@ jQuery(function ($) {
   })();
 
 
-    // -------------------------------------------------------------
-    // Animated scrolling / Scroll Up
-    // -------------------------------------------------------------
-
     (function () {
         $('a[href*=#]').bind("click", function(e){
             var anchor = $(this);
@@ -61,9 +35,6 @@ jQuery(function ($) {
 
 
 
-    // -------------------------------------------------------------
-    // Full Screen Slider
-    // -------------------------------------------------------------
     (function () {
         $(".tt-fullHeight").height($(window).height());
 
@@ -74,9 +45,6 @@ jQuery(function ($) {
     }());
 
 
-    // -------------------------------------------------------------
-    // Sticky Menu
-    // -------------------------------------------------------------
 
     (function () {
         $('.header').sticky({
@@ -92,9 +60,6 @@ jQuery(function ($) {
 
 
 
-    // -------------------------------------------------------------
-    // Back To Top
-    // -------------------------------------------------------------
 
     (function () {
         $(window).scroll(function() {
@@ -107,9 +72,6 @@ jQuery(function ($) {
     }());
 
 
-    // -------------------------------------------------------------
-    // Countup
-    // -------------------------------------------------------------
     $('.count-wrap').bind('inview', function(event, visible, visiblePartX, visiblePartY) {
         if (visible) {
             $(this).find('.timer').each(function () {
@@ -127,9 +89,7 @@ jQuery(function ($) {
     });
 
 
-    // -------------------------------------------------------------
-    // Progress Bar
-    // -------------------------------------------------------------
+
  
     $('.skill-progress').bind('inview', function(event, visible, visiblePartX, visiblePartY) {
         if (visible) {
@@ -140,9 +100,7 @@ jQuery(function ($) {
         }
     });
     
-    // -------------------------------------------------------------
-    // More skill
-    // -------------------------------------------------------------
+
     $('.more-skill').bind('inview', function(event, visible, visiblePartX, visiblePartY) {
         if (visible) {
             $('.chart').easyPieChart({
@@ -165,9 +123,6 @@ jQuery(function ($) {
     });
 
 
-    // -------------------------------------------------------------
-    // Shuffle
-    // -------------------------------------------------------------
 
     (function () {
 
